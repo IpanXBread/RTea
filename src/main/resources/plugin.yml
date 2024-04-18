@@ -4,5 +4,6 @@ main: me.pluginrawtea.rtea.RTea
 api-version: '1.20'
 commands:
   ipanmode:
-    description: Entering Ipan Mode, only if you want to be me, on the inside.
+    description: Entering Ipan Mode, only if you want to be me, on the inside
     usage: /<command>
+    permission: rtea.ipanmode

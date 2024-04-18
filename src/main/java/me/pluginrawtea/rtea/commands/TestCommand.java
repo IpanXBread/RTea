@@ -13,17 +13,21 @@ public class TestCommand implements CommandExecutor {
 
         if (sender instanceof Player) {
             Player p = (Player) sender;
-            if (p.isInvulnerable()) {
-                p.setInvulnerable(false);
-                p.sendMessage(ChatColor.RED + "Ipan mode disabled");
+            if (p.hasPermission("rtea.ipanmode")) {
+                if (p.isInvulnerable()) {
+                    p.setInvulnerable(false);
+                    p.sendMessage(ChatColor.RED + "Ipan mode disabled");
+                } else {
+                    p.setInvulnerable(true);
+                    p.sendMessage(ChatColor.GREEN + "Ipan mode enabled");
+                }
             } else {
-                p.setInvulnerable(true);
-                p.sendMessage(ChatColor.GREEN + "Ipan mode enabled");
+                System.out.println("Only player can run this command");
             }
         } else {
-            System.out.println("Only player can run this command");
+            Player p = (Player) sender;
+            p.sendMessage(ChatColor.RED + "Unfortunately, you are not him...!");
         }
-
         return true;
     }
 }
