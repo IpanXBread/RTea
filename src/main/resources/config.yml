@@ -1,0 +1,6 @@
+plot-message: '&eEntering &6%player%&e plot.'
+shop:
+  purchase: 'You have successfully buy this item. Feel free to use them.'
+  have-purchase: 'You have already buy this item before.'
+  notenoughmoney: '&eYou do not have enough money.'
+

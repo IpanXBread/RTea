@@ -3,7 +3,9 @@ version: '${project.version}'
 main: me.pluginrawtea.rtea.RTea
 api-version: '1.20'
 commands:
-  ipanmode:
-    description: Entering Ipan Mode, only if you want to be me, on the inside
+  followblockmode:
+    description: A block will spawn underneath you wherever you go
     usage: /<command>
-    permission: rtea.ipanmode
+    permission: rtea.FollowingSpawnBlock
+  bitz:
+    description: balance stuff

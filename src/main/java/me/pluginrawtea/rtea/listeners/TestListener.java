@@ -8,10 +8,10 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 public class TestListener implements Listener {
 
-    @EventHandler
-    public void onLeave(PlayerQuitEvent e) {
-        Player p = e.getPlayer();
-        e.setQuitMessage(ChatColor.GOLD + "" + ChatColor.BOLD + p.getDisplayName() + ChatColor.YELLOW + " has left the servveeerrr...");
-    }
+//    @EventHandler
+//    public void onLeave(PlayerQuitEvent e) {
+//        Player p = e.getPlayer();
+//        e.setQuitMessage(ChatColor.GOLD + "" + ChatColor.BOLD + p.getDisplayName() + ChatColor.YELLOW + " has left the servveeerrr...");
+//    }
 
 }
