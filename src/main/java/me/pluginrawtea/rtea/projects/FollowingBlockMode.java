@@ -1,4 +1,4 @@
-package me.pluginrawtea.rtea.listeners;
+package me.pluginrawtea.rtea.projects;
 
 import me.pluginrawtea.rtea.RTea;
 import org.bukkit.Bukkit;

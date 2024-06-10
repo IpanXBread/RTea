@@ -9,3 +9,9 @@ commands:
     permission: rtea.FollowingSpawnBlock
   bitz:
     description: balance stuff
+  ibr:
+    description: Ipans breaking record.
+  ibrm:
+    description: Ipans breaking record moment.
+  gchat:
+    description: Toggles groupchat /g.

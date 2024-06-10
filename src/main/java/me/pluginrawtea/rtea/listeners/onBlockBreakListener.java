@@ -16,12 +16,7 @@ public class onBlockBreakListener implements Listener {
         Economy eco = RTea.getEconomy();
         Player p = e.getPlayer();
 
-        EconomyResponse response = eco.depositPlayer(p, 0.01);
-//        if (response.transactionSuccess()) {
-//            p.sendMessage(ChatColor.GREEN + eco.format(response.amount) + " added.");
-//        } else {
-//            p.sendMessage(ChatColor.RED + "Economy failed.");
-//        }
+        EconomyResponse response = eco.depositPlayer(p, 0.0025);
     }
 
 }

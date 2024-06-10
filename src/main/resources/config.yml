@@ -3,4 +3,6 @@ shop:
   purchase: 'You have successfully buy this item. Feel free to use them.'
   have-purchase: 'You have already buy this item before.'
   notenoughmoney: '&eYou do not have enough money.'
-
+placeblock-reward: 0.005
+destroyblock-reward: 0.015
+killplayer-reward: 0.02

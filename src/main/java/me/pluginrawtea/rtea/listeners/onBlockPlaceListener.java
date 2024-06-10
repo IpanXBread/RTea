@@ -16,12 +16,7 @@ public class onBlockPlaceListener implements Listener {
         Economy eco = RTea.getEconomy();
         Player p = e.getPlayer();
 
-        EconomyResponse response = eco.depositPlayer(p, 0.04);
-//        if (response.transactionSuccess()) {
-//            p.sendMessage(ChatColor.AQUA + eco.format(response.amount) + " added.");
-//        } else {
-//            p.sendMessage(ChatColor.RED + "Economy failed.");
-//        }
+        EconomyResponse response = eco.depositPlayer(p, 0.015);
     }
 
 }
